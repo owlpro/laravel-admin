@@ -1,9 +1,9 @@
 {
-    "name": "owlpro/laravel-panel",
-    "description": "laravel-panel",
+    "name": "owlpro/laravel-admin",
+    "description": "laravel-admin",
     "type": "library",
-    "keywords": ["laravel", "panel", "grid", "form"],
-    "homepage": "https://github.com/owlpro/laravel-panel",
+    "keywords": ["laravel", "admin", "grid", "form"],
+    "homepage": "https://github.com/owlpro/laravel-admin",
     "license": "MIT",
     "version": "v1.7.8",
     "authors": [
