@@ -1,15 +1,15 @@
 {
-    "name": "encore/laravel-admin",
-    "description": "laravel admin",
+    "name": "owlpro/laravel-panel",
+    "description": "laravel-panel",
     "type": "library",
-    "keywords": ["laravel", "admin", "grid", "form"],
-    "homepage": "https://github.com/z-song/laravel-admin",
+    "keywords": ["laravel", "panel", "grid", "form"],
+    "homepage": "https://github.com/owlpro/laravel-panel",
     "license": "MIT",
     "version": "v1.7.8",
     "authors": [
         {
-            "name": "zsong",
-            "email": "zosong@126.com"
+            "name": "owlpro",
+            "email": "mdpro.smm@gmail.com"
         }
     ],
     "require": {
