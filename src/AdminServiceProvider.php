@@ -66,7 +66,7 @@ class AdminServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'admin');
+        $this->loadViewsFrom(public_path('/vendor/laravel-admin/views'), 'admin');
 
         $this->ensureHttps();
 
@@ -103,7 +103,8 @@ class AdminServiceProvider extends ServiceProvider
             $this->publishes([__DIR__.'/../config' => config_path()], 'laravel-admin-config');
             $this->publishes([__DIR__.'/../resources/lang' => resource_path('lang')], 'laravel-admin-lang');
             $this->publishes([__DIR__.'/../database/migrations' => database_path('migrations')], 'laravel-admin-migrations');
-            $this->publishes([__DIR__.'/../resources/assets' => public_path('vendor/laravel-admin')], 'laravel-admin-assets');
+            $this->publishes([__DIR__.'/../resources/assets' => public_path('vendor/laravel-admin/')], 'laravel-admin-assets');
+            $this->publishes([__DIR__.'/../resources/views' => public_path('vendor/laravel-admin/views')], 'laravel-admin-views');
         }
     }
 
