@@ -18,7 +18,7 @@ class Administrator extends Model implements AuthenticatableContract
 {
     use Authenticatable, AdminBuilder, HasPermissions;
 
-    protected $fillable = ['username', 'password', 'name', 'avatar'];
+    protected $fillable = ['username', 'password', 'name', 'avatar', 'gateway_id'];
 
     /**
      * Create a new Eloquent model instance.
